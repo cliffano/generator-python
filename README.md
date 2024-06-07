@@ -1,2 +1,4 @@
-# generator-studio-python
-Yeoman generator for Studio Python projects
+Generator Python
+----------------
+
+Plop Generator for Python projects.

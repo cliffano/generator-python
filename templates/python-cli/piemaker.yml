@@ -1,0 +1,3 @@
+---
+author: {{ author_name }}
+package_name: {{ project_id }}

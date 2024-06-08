@@ -1,4 +1,4 @@
-ci: clean stage deps test-python-cli
+ci: clean stage deps test-python-cli test-python-lib
 
 clean:
 	rm -rf stage/

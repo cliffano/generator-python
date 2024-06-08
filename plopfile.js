@@ -8,6 +8,10 @@ export default function (plop) {
     return '-'.repeat(length);
   });
 
+  plop.setHelper('titlecase', function (text) {
+    return text.charAt(0).toUpperCase() + text.slice(1);
+  });
+
   plop.setGenerator('python-cli', {
       description: 'Python CLI Plop',
       prompts: [

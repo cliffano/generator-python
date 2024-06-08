@@ -4,8 +4,8 @@ export default function (plop) {
     return new Date().getFullYear();
   });
 
-  plop.setHelper('underline', function (length) {
-    return '-'.repeat(length);
+  plop.setHelper('underline', function (char, length) {
+    return char.repeat(length);
   });
 
   plop.setHelper('titlecase', function (text) {

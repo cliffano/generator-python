@@ -7,7 +7,7 @@
 <br/>
 
 {{ project_name }}
-{{ underline project_name.length }}
+{{ underline "-" project_name.length }}
 
 {{ project_name }} is a {{ project_desc }} .
 

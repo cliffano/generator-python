@@ -28,7 +28,3 @@ class Message():
     def __str__(self) -> str:
         """Return the string representation of the Message object."""
         return f'{self.text}'
-
-    def __repr__(self) -> str:
-        """Return the string representation of the Message object."""
-        return f'{self.text}'

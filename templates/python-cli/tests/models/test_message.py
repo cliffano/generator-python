@@ -22,3 +22,7 @@ class TestMessage(unittest.TestCase):
         message = Message('Hello World')
         message.lower()
         self.assertEqual(message.get_text(), 'hello world')
+
+    def test_str(self):
+        message = Message('Hello World')
+        self.assertEqual(str(message), 'Hello World')

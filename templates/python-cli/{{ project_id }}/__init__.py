@@ -1,7 +1,7 @@
 # pylint: disable=too-many-locals
 """
 {{ project_id }}
-=======
+{{ underline "=" project_id.length }}
 ... .
 """
 import click

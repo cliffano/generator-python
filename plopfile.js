@@ -4,6 +4,10 @@ export default function (plop) {
     return new Date().getFullYear();
   });
 
+  plop.setHelper('underline', function (length) {
+    return '-'.repeat(length);
+  });
+
   plop.setGenerator('python-cli', {
       description: 'Python CLI Plop',
       prompts: [

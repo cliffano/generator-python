@@ -18,7 +18,8 @@ test-python-cli:
 		--project_name "PythonCLI" \
 		--project_desc "A sample Python CLI project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com"
+		--author_email "blah+pakkun@cliffano.com" \
+		--github_id "cliffano"
 	cd stage/python-cli/ && make ci && \
 	  cd examples/ && PATH=/opt/poetry-venv/bin/:$PATH ./pythoncli-cli.sh
 
@@ -31,7 +32,8 @@ test-python-lib:
 		--project_name "PythonLib" \
 		--project_desc "A sample Python library project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com"
+		--author_email "blah+pakkun@cliffano.com" \
+		--github_id "cliffano"
 	cd stage/python-lib/ && make ci && \
 	  cd examples/
 

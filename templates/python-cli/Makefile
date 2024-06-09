@@ -1,6 +1,6 @@
 ################################################################
 # PieMaker: Makefile for building Python packages
-# https://github.com/cliffano/piemaker
+# https://github.com/{{github_id}}/piemaker
 ################################################################
 
 # PieMaker's version number

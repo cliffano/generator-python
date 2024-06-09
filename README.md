@@ -1,7 +1,7 @@
-<img align="right" src="https://raw.github.com/cliffano/generator-python/master/avatar.jpg" alt="Avatar"/>
+<img align="right" src="https://raw.github.com/{{github_id}}/generator-python/master/avatar.jpg" alt="Avatar"/>
 
-[![Build Status](https://github.com/cliffano/generator-python/workflows/CI/badge.svg)](https://github.com/cliffano/generator-python/actions?query=workflow%3ACI)
-[![Security Status](https://snyk.io/test/github/cliffano/generator-python/badge.svg)](https://snyk.io/test/github/cliffano/generator-python)
+[![Build Status](https://github.com/{{github_id}}/generator-python/workflows/CI/badge.svg)](https://github.com/{{github_id}}/generator-python/actions?query=workflow%3ACI)
+[![Security Status](https://snyk.io/test/github/{{github_id}}/generator-python/badge.svg)](https://snyk.io/test/github/{{github_id}}/generator-python)
 
 Generator-Python
 ----------------
@@ -15,7 +15,7 @@ It provides the following components:
 | python-cli | Generate a Python CLI project with executable command. |
 | python-lib | Generate a Python library project. |
 
-All components are built using [PieMaker](https://github.com/cliffano/piemaker).
+All components are built using [PieMaker](https://github.com/{{github_id}}/piemaker).
 
 Usage
 -----
@@ -37,3 +37,4 @@ Both components will prompt you the following inputs:
 | Project Description | Used in documentation or comments. |
 | Author Name | The name of the project author. |
 | Author Email | The email of the project author. |
+| GitHub ID | The GitHub ID of the project repo. |

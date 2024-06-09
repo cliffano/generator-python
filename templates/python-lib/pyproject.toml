@@ -12,9 +12,9 @@ description = "{{project_desc}}"
 license = "Apache-2.0"
 authors = [ "{{author_name}} <{{author_email}}>" ]
 readme = "README.md"
-homepage = "https://github.com/cliffano/{{project_id}}"
-repository = "https://github.com/cliffano/{{project_id}}"
-documentation = "https://github.com/cliffano/{{project_id}}"
+homepage = "https://github.com/{{github_id}}/{{project_id}}"
+repository = "https://github.com/{{github_id}}/{{project_id}}"
+documentation = "https://github.com/{{github_id}}/{{project_id}}"
 keywords = [ "{{project_id}}", "..." ]
 classifiers = [
   "Programming Language :: Python :: 3",

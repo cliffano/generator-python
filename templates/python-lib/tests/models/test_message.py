@@ -1,6 +1,6 @@
 # pylint: disable=missing-module-docstring,missing-class-docstring,missing-function-docstring,duplicate-code,too-many-locals
 import unittest
-from {{ project_id }}.models.message import Message
+from {{project_id}}.models.message import Message
 
 class TestMessage(unittest.TestCase):
 

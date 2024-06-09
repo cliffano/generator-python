@@ -6,16 +6,16 @@ build-backend = "poetry.core.masonry.api"
 no-binary = [ ":none:" ]
 
 [tool.poetry]
-name = "{{ project_id }}"
+name = "{{project_id}}"
 version = "0.9.0-pre.0"
-description = "{{ project_desc }}"
+description = "{{project_desc}}"
 license = "Apache-2.0"
-authors = [ "{{ author_name }} <{{ author_email }}>" ]
+authors = [ "{{author_name}} <{{author_email}}>" ]
 readme = "README.md"
-homepage = "https://github.com/cliffano/{{ project_id }}"
-repository = "https://github.com/cliffano/{{ project_id }}"
-documentation = "https://github.com/cliffano/{{ project_id }}"
-keywords = [ "{{ project_id }}", "..." ]
+homepage = "https://github.com/cliffano/{{project_id}}"
+repository = "https://github.com/cliffano/{{project_id}}"
+documentation = "https://github.com/cliffano/{{project_id}}"
+keywords = [ "{{project_id}}", "..." ]
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: Apache Software License",
@@ -23,10 +23,10 @@ classifiers = [
 ]
 
 [[tool.poetry.packages]]
-include = "{{ project_id }}"
+include = "{{project_id}}"
 
 [tool.poetry.scripts]
-{{ project_id }} = "{{ project_id }}:cli"
+{{project_id}} = "{{project_id}}:cli"
 
 [tool.poetry.dependencies]
 python = "^3.8"

@@ -3,13 +3,13 @@ from unittest.mock import patch
 import unittest.mock
 import unittest
 from click.testing import CliRunner
-from {{ project_id }} import display
-from {{ project_id }} import cli
+from {{project_id}} import display
+from {{project_id}} import cli
 
-class Test{{ project_name }}(unittest.TestCase):
+class Test{{project_name}}(unittest.TestCase):
 
-    @patch('{{ project_id }}.load')
-    @patch('{{ project_id }}.init')
+    @patch('{{project_id}}.load')
+    @patch('{{project_id}}.init')
     def test_display( # pylint: disable=too-many-arguments
             self,
             func_init,
@@ -22,10 +22,10 @@ class Test{{ project_name }}(unittest.TestCase):
             'text': 'Hello World'
         }
 
-        display(conf_file='{{ project_id }}.yaml', reverse=False, transformation='lower')
+        display(conf_file='{{project_id}}.yaml', reverse=False, transformation='lower')
 
-    @patch('{{ project_id }}.load')
-    @patch('{{ project_id }}.init')
+    @patch('{{project_id}}.load')
+    @patch('{{project_id}}.init')
     def test_display_with_non_default_args( # pylint: disable=too-many-arguments
             self,
             func_init,
@@ -38,9 +38,9 @@ class Test{{ project_name }}(unittest.TestCase):
             'text': 'Hello World'
         }
 
-        display(conf_file='{{ project_id }}.yaml', reverse=True, transformation='upper')
+        display(conf_file='{{project_id}}.yaml', reverse=True, transformation='upper')
 
-    @patch('{{ project_id }}.display')
+    @patch('{{project_id}}.display')
     def test_cli( # pylint: disable=too-many-arguments
             self,
             func_display):
@@ -50,7 +50,7 @@ class Test{{ project_name }}(unittest.TestCase):
         runner = CliRunner()
         result = runner.invoke(cli, [
             '--conf-file',
-            '{{ project_id }}.yaml',
+            '{{project_id}}.yaml',
             '--reverse',
             '--transformation',
             'lower'
@@ -60,4 +60,4 @@ class Test{{ project_name }}(unittest.TestCase):
         assert result.output == ''
 
         # should delegate call to display
-        func_display.assert_called_once_with('{{ project_id }}.yaml', True, 'lower')
+        func_display.assert_called_once_with('{{project_id}}.yaml', True, 'lower')

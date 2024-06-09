@@ -8,10 +8,10 @@ jobs:
       max-parallel: 1
       matrix:
         node: [ '18', '20', '22' ]
-    name: node ${{ matrix.node }}
+    name: node ${{matrix.node}}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node }}
+          node-version: ${{matrix.node}}
       - run: make ci

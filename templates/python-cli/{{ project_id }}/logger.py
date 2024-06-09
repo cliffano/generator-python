@@ -1,4 +1,4 @@
-"""Logger for {{ project_name }}."""
+"""Logger for {{project_name}}."""
 from conflog import Conflog
 
 def init():
@@ -8,7 +8,7 @@ def init():
     cfl = Conflog(
         conf_dict={
             'level': 'info',
-            'format': '[{{ project_id }}] %(levelname)s %(message)s'
+            'format': '[{{project_id}}] %(levelname)s %(message)s'
         }
     )
 

@@ -2,12 +2,12 @@
 from unittest.mock import patch
 import unittest.mock
 import unittest
-from {{ project_id }} import Display
+from {{project_id}} import Display
 
-class Test{{ project_name }}(unittest.TestCase):
+class Test{{project_name}}(unittest.TestCase):
 
-    @patch('{{ project_id }}.load')
-    @patch('{{ project_id }}.init')
+    @patch('{{project_id}}.load')
+    @patch('{{project_id}}.init')
     def test_display_with_lower_non_reverse( # pylint: disable=too-many-arguments
             self,
             func_init,
@@ -20,12 +20,12 @@ class Test{{ project_name }}(unittest.TestCase):
             'text': 'Hello World'
         }
 
-        display = Display(conf_file='{{ project_id }}.yaml')
+        display = Display(conf_file='{{project_id}}.yaml')
         text = display.format(reverse=False, transformation='lower')
         assert text == 'hello world'
 
-    @patch('{{ project_id }}.load')
-    @patch('{{ project_id }}.init')
+    @patch('{{project_id}}.load')
+    @patch('{{project_id}}.init')
     def test_display_with_upper_reverse( # pylint: disable=too-many-arguments
             self,
             func_init,
@@ -38,6 +38,6 @@ class Test{{ project_name }}(unittest.TestCase):
             'text': 'Hello World'
         }
 
-        display = Display(conf_file='{{ project_id }}.yaml')
+        display = Display(conf_file='{{project_id}}.yaml')
         text = display.format(reverse=True, transformation='upper')
         assert text == 'DLROW OLLEH'

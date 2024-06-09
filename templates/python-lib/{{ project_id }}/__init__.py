@@ -1,7 +1,7 @@
 # pylint: disable=too-many-locals,too-few-public-methods
 """
-{{ project_id }}
-{{ underline "=" project_id.length }}
+{{project_id}}
+{{underline "=" project_id.length}}
 ... .
 """
 from .config import load

@@ -19,7 +19,7 @@ test-python-cli:
 		--project_desc "A sample Python CLI project" \
 		--author_name "Pakkun" \
 		--author_email "blah+pakkun@cliffano.com" \
-		--github_id "cliffano"
+		--github_id "pakkunbot"
 	cd stage/python-cli/ && make ci && \
 	  cd examples/ && PATH=/opt/poetry-venv/bin/:$PATH ./pythoncli-cli.sh
 
@@ -33,7 +33,7 @@ test-python-lib:
 		--project_desc "A sample Python library project" \
 		--author_name "Pakkun" \
 		--author_email "blah+pakkun@cliffano.com" \
-		--github_id "cliffano"
+		--github_id "pakkunbot"
 	cd stage/python-lib/ && make ci && \
 	  cd examples/
 

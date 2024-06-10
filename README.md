@@ -38,3 +38,11 @@ Both components will prompt you the following inputs:
 | Author Name | The name of the project author. |
 | Author Email | The email of the project author. |
 | GitHub ID | The GitHub ID of the project repo. |
+
+
+Colophon
+--------
+
+Related Projects:
+
+* [piemaker](https://github.com/cliffano/piemaker) - Makefile for building Python packages

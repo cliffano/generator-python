@@ -22,7 +22,19 @@ Usage
 Create a configuration file, e.g. `{{project_id}}.yaml`:
 
     ---
-    msg: hello world
+    text: Hello World
+
+Run {{project_id}} with specified config file:
+
+    {{project_id}} --conf-file {{project_id}}.yaml
+
+Run {{project_id}} with specified config file and custom flags:
+
+    {{project_id}} --conf-file {{project_id}}.yaml --reverse --transformation upper
+
+Show help guide:
+
+    {{project_id}} --help
 
 Configuration
 -------------

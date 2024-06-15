@@ -15,7 +15,7 @@ It provides the following components:
 | python-cli | Generate a Python CLI project with executable command. |
 | python-lib | Generate a Python library project. |
 
-All components are built using [PieMaker](https://github.com/{{github_id}}/piemaker).
+All components are built using [PieMaker](https://github.com/cliffano/piemaker).
 
 Usage
 -----
@@ -45,4 +45,4 @@ Colophon
 
 Related Projects:
 
-* [piemaker](https://github.com/cliffano/piemaker) - Makefile for building Python packages
+* [PieMaker](https://github.com/cliffano/piemaker) - Makefile for building Python packages

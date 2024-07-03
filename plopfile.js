@@ -51,6 +51,8 @@ export default function (plop) {
           type: 'addMany',
           destination: 'stage',
           templateFiles: [
+            'templates/python-cli/.*/*/*/*',
+            'templates/python-cli/.*/*/*',
             'templates/python-cli/**/.*',
             'templates/python-cli/**/*'
           ]
@@ -97,6 +99,8 @@ export default function (plop) {
         type: 'addMany',
         destination: 'stage',
         templateFiles: [
+          'templates/python-lib/.*/*/*/*',
+          'templates/python-lib/.*/*/*',
           'templates/python-lib/**/.*',
           'templates/python-lib/**/*'
         ]

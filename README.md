@@ -1,7 +1,7 @@
-<img align="right" src="https://raw.github.com/{{github_id}}/generator-python/master/avatar.jpg" alt="Avatar"/>
+<img align="right" src="https://raw.github.com/cliffano/generator-python/master/avatar.jpg" alt="Avatar"/>
 
-[![Build Status](https://github.com/{{github_id}}/generator-python/workflows/CI/badge.svg)](https://github.com/{{github_id}}/generator-python/actions?query=workflow%3ACI)
-[![Security Status](https://snyk.io/test/github/{{github_id}}/generator-python/badge.svg)](https://snyk.io/test/github/{{github_id}}/generator-python)
+[![Build Status](https://github.com/cliffano/generator-python/workflows/CI/badge.svg)](https://github.com/cliffano/generator-python/actions?query=workflow%3ACI)
+[![Security Status](https://snyk.io/test/github/cliffano/generator-python/badge.svg)](https://snyk.io/test/github/cliffano/generator-python)
 
 Generator-Python
 ----------------

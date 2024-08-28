@@ -19,5 +19,5 @@ jobs:
       - run: make test-examples
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.STUDIO_GITHUB_TOKEN }}
+          github_token: $\{{ secrets.STUDIO_GITHUB_TOKEN }}
           publish_dir: docs

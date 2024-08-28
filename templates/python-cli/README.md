@@ -1,8 +1,8 @@
-<img align="right" src="https://raw.github.com/{{github_id}}/{{project_id}}/main/avatar.jpg" alt="Avatar"/>
+<img align="right" src="https://raw.github.com/{{github_id}}/{{github_repo}}/main/avatar.jpg" alt="Avatar"/>
 
-[![Build Status](https://github.com/{{github_id}}/{{project_id}}/workflows/CI/badge.svg)](https://github.com/{{github_id}}/{{project_id}}/actions?query=workflow%3ACI)
-[![Security Status](https://snyk.io/test/github/{{github_id}}/{{project_id}}/badge.svg)](https://snyk.io/test/github/{{github_id}}/{{project_id}})
-[![Dependencies Status](https://img.shields.io/librariesio/release/pypi/{{project_id}})](https://libraries.io/github/{{github_id}}/{{project_id}})
+[![Build Status](https://github.com/{{github_id}}/{{github_repo}}/workflows/CI/badge.svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACI)
+[![Security Status](https://snyk.io/test/github/{{github_id}}/{{github_repo}}/badge.svg)](https://snyk.io/test/github/{{github_id}}/{{github_repo}})
+[![Dependencies Status](https://img.shields.io/librariesio/release/pypi/{{project_id}})](https://libraries.io/github/{{github_id}}/{{github_repo}})
 [![Published Version](https://img.shields.io/pypi/v/{{project_id}}.svg)](https://pypi.python.org/pypi/{{project_id}})
 <br/>
 

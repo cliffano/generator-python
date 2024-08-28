@@ -97,6 +97,11 @@ export default function (plop) {
         type: 'input',
         name: 'github_id',
         message: 'GitHub ID'
+      },
+      {
+        type: 'input',
+        name: 'github_repo',
+        message: 'GitHub Repository'
       }
     ],
     actions: [

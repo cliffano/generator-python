@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 set -o nounset
-set -o errexit
 
 echo "\n\n========================================"
 echo "Show help guide: {{project_id}} --help"

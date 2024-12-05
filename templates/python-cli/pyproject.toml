@@ -31,6 +31,7 @@ include = "{{project_id}}"
 [tool.poetry.dependencies]
 python = "^3.10"
 click = "^8.1.7"
+conflog = "^2.0.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.10.0"

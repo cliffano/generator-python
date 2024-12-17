@@ -39,4 +39,8 @@ test-python-lib:
 	cd stage/python-lib/ && make ci && \
 	  cd examples/
 
-.PHONY: ci clean stage deps generate-python-cli generate-python-lib test-python-cli test-python-lib
+update-piemaker-to-latest:
+	cd templates/python-cli && make update-to-latest
+	cd templates/python-lib && make update-to-latest
+
+.PHONY: ci clean stage deps generate-python-cli generate-python-lib test-python-cli test-python-lib update-piemaker-to-latest

@@ -26,22 +26,22 @@ classifiers = [
 include = "{{project_id}}"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 conflog = "^2.0.1"
 
 [tool.poetry.group.dev.dependencies]
-black = "^24.10.0"
-twine = "^5.1.1"
-wheel = "^0.44.0"
+black = "^25.1.0"
+twine = "^6.1.0"
+wheel = "^0.45.1"
 
 [tool.poetry.group.test.dependencies]
-coverage = "^7.6.4"
-numpy = "1.26.4" # https://stackoverflow.com/questions/78634235/numpy-dtype-size-changed-may-indicate-binary-incompatibility-expected-96-from
-pylint = "^3.3.1"
-pytest = "^8.3.3"
+coverage = "^7.8.0"
+numpy = "1.26.4"
+pylint = "^3.3.6"
+pytest = "^8.3.5"
 wily = "^1.25.0"
 
 [tool.poetry.group.doc.dependencies]
-pylint-report = "^2.4.0"
+pylint-report = "^2.4.2"
 pytest-html = "^4.1.1"
-Sphinx = "^8.1.3"
+Sphinx = "^8.2.3"

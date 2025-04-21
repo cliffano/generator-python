@@ -1,6 +1,9 @@
 #!/usr/bin/bash
 set -o nounset
 
+cd ../
+. ./.venv/bin/activate
+
 echo "\n\n========================================"
 echo "Show help guide: {{project_id}} --help"
 {{project_id}} --help

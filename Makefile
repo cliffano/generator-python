@@ -21,7 +21,7 @@ test-python-cli:
 		--author_email "blah+pakkun@cliffano.com" \
 		--github_id "pakkunbot" \
 		--github_repo "python-cli"
-	cd stage/python-cli/ && make ci && \
+	cd stage/python-cli/ && make deps-extra-apt ci && \
 	  cd examples/ && PATH=/opt/poetry-venv/bin/:$PATH ./pythoncli-cli.sh
 
 generate-python-lib:
@@ -36,7 +36,7 @@ test-python-lib:
 		--author_email "blah+pakkun@cliffano.com" \
 		--github_id "pakkunbot" \
 		--github_repo "python-lib"
-	cd stage/python-lib/ && make ci && \
+	cd stage/python-lib/ && make deps-extra-apt ci && \
 	  cd examples/
 
 update-piemaker-to-latest:

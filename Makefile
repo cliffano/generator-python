@@ -22,7 +22,7 @@ test-python-cli:
 		--github_id "pakkunbot" \
 		--github_repo "python-cli"
 	cd stage/python-cli/ && make deps-extra-apt ci && \
-	  cd examples/ && PATH=/opt/poetry-venv/bin/:$PATH ./pythoncli-cli.sh
+	  cd examples/ && ./pythoncli-cli.sh
 
 generate-python-lib:
 	node_modules/.bin/plop python-lib

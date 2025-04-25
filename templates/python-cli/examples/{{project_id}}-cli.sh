@@ -14,8 +14,8 @@ printf "Run command with default config file:\n"
 
 printf "\n\n========================================\n"
 printf "Run command with specified config file:\n"
-{{project_id}} --conf-file {{project_id}}.yaml
+{{project_id}} --conf-file examples/{{project_id}}.yaml
 
 printf "\n\n========================================\n"
 printf "Run command with specified config file and custom flags:\n"
-{{project_id}} --conf-file {{project_id}}.yaml --reverse --transformation upper
+{{project_id}} --conf-file examples/{{project_id}}.yaml --reverse --transformation upper

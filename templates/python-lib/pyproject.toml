@@ -27,7 +27,8 @@ include = "{{project_id}}"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-click = "^8.2.1"
+conflog = "^2.0.1"
+PyYAML = "^6.0.2"
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.1.0"

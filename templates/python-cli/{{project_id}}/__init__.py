@@ -35,6 +35,7 @@ def display(conf_file: str, reverse: bool, transformation: str) -> None:
               help='When reverse is enabled, message text is written in reverse')
 @click.option('--transformation', default='lower', show_default=True, type=str,
               help='Message text transformation type, can be lower or upper')
+@click.version_option(package_name="{{project_id}}", prog_name="{{project_id}}")
 def cli(conf_file: str, reverse: bool, transformation: str) -> None:
     """{{project_desc}}
     """

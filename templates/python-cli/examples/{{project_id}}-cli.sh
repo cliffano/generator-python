@@ -10,6 +10,10 @@ printf "Show help guide:\n"
 {{project_id}} --help
 
 printf "\n\n========================================\n"
+printf "Show version info: {{project_id}} --version\n"
+{{project_id}} --version
+
+printf "\n\n========================================\n"
 printf "Run command with default config file:\n"
 {{project_id}}
 

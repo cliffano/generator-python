@@ -50,7 +50,7 @@ Colophon
 Build reports:
 
 * [Lint report](https://{{github_id}}.github.io/{{project_id}}/lint/pylint/index.html)
-* [Code complexity report](https://{{github_id}}.github.io/{{project_id}}/complexity/wily/index.html)
+* [Code complexity report](https://{{github_id}}.github.io/{{project_id}}/complexity/radon/cc.txt)
 * [Unit tests report](https://{{github_id}}.github.io/{{project_id}}/test/pytest/index.html)
 * [Test coverage report](https://{{github_id}}.github.io/{{project_id}}/coverage/coverage/index.html)
 * [Integration tests report](https://{{github_id}}.github.io/{{project_id}}/test-integration/pytest/index.html)

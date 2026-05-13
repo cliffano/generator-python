@@ -58,6 +58,7 @@ export default function (plop) {
           templateFiles: [
             'templates/python-cli/.*/*/*/*',
             'templates/python-cli/.*/*/*',
+            'templates/python-cli/.*/*',
             'templates/python-cli/**/.*',
             'templates/python-cli/**/*'
           ]
@@ -111,6 +112,7 @@ export default function (plop) {
         templateFiles: [
           'templates/python-lib/.*/*/*/*',
           'templates/python-lib/.*/*/*',
+          'templates/python-lib/.*/*',
           'templates/python-lib/**/.*',
           'templates/python-lib/**/*'
         ]

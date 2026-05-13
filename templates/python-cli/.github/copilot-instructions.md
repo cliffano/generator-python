@@ -66,7 +66,7 @@ project/
 
 ## Build Automation (PieMaker)
 
-This Python project uses **PieMaker** (v2.2.1) as a standard build automation tool that unifies the build pipeline across all projects.
+This Python project uses **PieMaker** as a standard build automation tool that unifies the build pipeline across all projects.
 
 ### Common Commands
 
@@ -172,7 +172,7 @@ After the code is merged, the CI pipeline will run as Github CI workflow.
 
 This repository defines the following workflows under `.github/workflows/`:
 
-- **CI** (`ci-workflow.yaml`): Trigger: `push`, `pull_request`, and manual `workflow_dispatch`. Purpose: Runs the full quality pipeline (`make ci`) across a Python version matrix (`3.10`, `3.12`, `3.14`), runs example tests, and publishes generated docs to GitHub Pages.
+- **CI** (`ci-workflow.yaml`): Trigger: `push`, `pull_request`, and manual `workflow_dispatch`. Purpose: Runs the full quality pipeline (`make ci`) across a Python version matrix (usually LTS versions), runs example tests, and publishes generated docs to GitHub Pages.
 
 - **CodeQL** (`codeql-analysis.yml`): Trigger: `push` to `main`, `pull_request` targeting `main`, and weekly scheduled run (`cron`). Purpose: Performs GitHub CodeQL static security analysis for Python and uploads code scanning results.
 

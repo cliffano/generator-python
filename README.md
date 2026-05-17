@@ -1,11 +1,10 @@
-<img align="right" src="https://raw.github.com/cliffano/generator-python/main/avatar.jpg" alt="Avatar"/>
+![Avatar](avatar.jpg)
 
 [![Build Status](https://github.com/cliffano/generator-python/workflows/CI/badge.svg)](https://github.com/cliffano/generator-python/actions?query=workflow%3ACI)
 [![Code Scanning Status](https://github.com/cliffano/generator-python/workflows/CodeQL/badge.svg)](https://github.com/cliffano/generator-python/actions?query=workflow%3ACodeQL)
 [![Security Status](https://snyk.io/test/github/cliffano/generator-python/badge.svg)](https://snyk.io/test/github/cliffano/generator-python)
 
-Generator-Python
-----------------
+# Generator-Python
 
 Generator-Python is a Python projects generator using [Plop](https://plopjs.com/).
 
@@ -18,8 +17,7 @@ It provides the following components:
 
 All components are built using [PieMaker](https://github.com/cliffano/piemaker).
 
-Usage
------
+## Usage
 
 Generate Python CLI project:
 
@@ -41,8 +39,7 @@ Both components will prompt you the following inputs:
 | GitHub ID | The GitHub ID of the project repo. |
 
 
-Colophon
---------
+## Colophon
 
 Related Projects:
 

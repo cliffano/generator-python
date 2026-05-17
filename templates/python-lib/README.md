@@ -1,24 +1,20 @@
-<img align="right" src="https://raw.github.com/{{github_id}}/{{github_repo}}/main/avatar.jpg" alt="Avatar"/>
+![Avatar](avatar.jpg)
 
 [![Build Status](https://github.com/{{github_id}}/{{github_repo}}/workflows/CI/badge.svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACI)
 [![Code Scanning Status](https://github.com/{{github_id}}/{{github_repo}}/workflows/CodeQL/badge.svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACodeQL)
 [![Dependencies Status](https://img.shields.io/librariesio/release/pypi/{{project_id}})](https://libraries.io/github/{{github_id}}/{{github_repo}})
 [![Security Status](https://snyk.io/test/github/{{github_id}}/{{github_repo}}/badge.svg)](https://snyk.io/test/github/{{github_id}}/{{github_repo}})
 [![Published Version](https://img.shields.io/pypi/v/{{project_id}}.svg)](https://pypi.python.org/pypi/{{project_id}})
-<br/>
 
-{{project_name}}
-{{underline "-" project_name.length}}
+# {{project_name}}
 
 {{project_name}} is a {{project_desc}} .
 
-Installation
-------------
+## Installation
 
     pip3 install {{project_id}}
 
-Usage
------
+## Usage
 
 Create a configuration file, e.g. `{{project_id}}.yaml`:
 
@@ -33,8 +29,7 @@ Create {{project_id}} object and run it:
     text = display.format(reverse=False, transformation='lower')
     print(text)
 
-Configuration
--------------
+## Configuration
 
 These are the configuration properties that you can use with `{{project_id}}` CLI.
 Some example configuration files are available on [examples](examples) folder.
@@ -43,8 +38,7 @@ Some example configuration files are available on [examples](examples) folder.
 |----------|------|-------------|---------|
 | `text` | String | The message text | Hello World |
 
-Colophon
---------
+## Colophon
 
 [Developer's Guide](https://{{github_id}}.github.io/developers_guide.html#python)
 

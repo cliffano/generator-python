@@ -26,7 +26,8 @@ test-python-cli:
 		--author_name "Pakkun" \
 		--author_email "blah+pakkun@cliffano.com" \
 		--github_id "pakkunbot" \
-		--github_repo "python-cli"
+		--github_repo "python-cli" \
+		--github_token_prefix "STUDIO"
 	cd stage/python-cli/ && make deps-extra-apt ci && \
 	  cd examples/ && ./pythoncli-cli.sh
 
@@ -41,7 +42,8 @@ test-python-lib:
 		--author_name "Pakkun" \
 		--author_email "blah+pakkun@cliffano.com" \
 		--github_id "pakkunbot" \
-		--github_repo "python-lib"
+		--github_repo "python-lib" \
+		--github_token_prefix "STUDIO"
 	cd stage/python-lib/ && make deps-extra-apt ci && \
 	  cd examples/
 

@@ -4,10 +4,6 @@ export default function (plop) {
     return new Date().getFullYear();
   });
 
-  plop.setHelper('underline', function (char, length) {
-    return char.repeat(length);
-  });
-
   plop.setHelper('titlecase', function (text) {
     return text.charAt(0).toUpperCase() + text.slice(1);
   });
@@ -49,6 +45,11 @@ export default function (plop) {
           type: 'input',
           name: 'github_repo',
           message: 'GitHub Repository'
+        },
+        {
+          type: 'input',
+          name: 'github_token_prefix',
+          message: 'GitHub Actions token prefix'
         }
       ],
       actions: [
@@ -103,6 +104,11 @@ export default function (plop) {
         type: 'input',
         name: 'github_repo',
         message: 'GitHub Repository'
+      },
+      {
+        type: 'input',
+        name: 'github_token_prefix',
+        message: 'GitHub Actions token prefix'
       }
     ],
     actions: [

@@ -8,6 +8,10 @@ export default function (plop) {
     return text.charAt(0).toUpperCase() + text.slice(1);
   });
 
+  plop.setHelper('underline', function (char, length) {
+    return char.repeat(length);
+  });
+
   plop.setGenerator('python-cli', {
       description: 'Python CLI Plop',
       prompts: [

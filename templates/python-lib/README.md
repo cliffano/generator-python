@@ -1,10 +1,10 @@
-![Avatar](avatar.jpg)
+<!-- BEGIN:AVATAR -->
+To be populated by generator-python python-lib-partials
+<!-- END:AVATAR -->
 
-[![Build Status](https://github.com/{{github_id}}/{{github_repo}}/workflows/CI/badge.svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACI)
-[![Code Scanning Status](https://github.com/{{github_id}}/{{github_repo}}/workflows/CodeQL/badge.svg)](https://github.com/{{github_id}}/{{github_repo}}/actions?query=workflow%3ACodeQL)
-[![Dependencies Status](https://img.shields.io/librariesio/release/pypi/{{project_id}})](https://libraries.io/github/{{github_id}}/{{github_repo}})
-[![Security Status](https://snyk.io/test/github/{{github_id}}/{{github_repo}}/badge.svg)](https://snyk.io/test/github/{{github_id}}/{{github_repo}})
-[![Published Version](https://img.shields.io/pypi/v/{{project_id}}.svg)](https://pypi.python.org/pypi/{{project_id}})
+<!-- BEGIN:BADGES -->
+To be populated by generator-python python-lib-partials
+<!-- END:BADGES -->
 
 # {{project_name}}
 
@@ -40,13 +40,10 @@ Some example configuration files are available on [examples](examples) folder.
 
 ## Colophon
 
-[Developer's Guide](https://{{github_id}}.github.io/developers_guide.html#python)
+<!-- BEGIN:DEVELOPERS_GUIDE -->
+To be populated by generator-python python-lib-partials
+<!-- END:DEVELOPERS_GUIDE -->
 
-Build reports:
-
-* [Lint report](https://{{github_id}}.github.io/{{project_id}}/lint/pylint/index.html)
-* [Code complexity report](https://{{github_id}}.github.io/{{project_id}}/complexity/radon/cc.txt)
-* [Unit tests report](https://{{github_id}}.github.io/{{project_id}}/test/pytest/index.html)
-* [Test coverage report](https://{{github_id}}.github.io/{{project_id}}/coverage/coverage/index.html)
-* [Integration tests report](https://{{github_id}}.github.io/{{project_id}}/test-integration/pytest/index.html)
-* [API Documentation](https://{{github_id}}.github.io/{{project_id}}/doc/sphinx/index.html)
+<!-- BEGIN:BUILD_REPORTS -->
+To be populated by generator-python python-lib-partials
+<!-- END:BUILD_REPORTS -->

@@ -13,7 +13,9 @@ It provides the following components:
 | Component | Description |
 |-----------|-------------|
 | python-cli | Generate a Python CLI project with executable command. |
+| python-cli-partials | Generate README partial snippets for Python CLI projects. |
 | python-lib | Generate a Python library project. |
+| python-lib-partials | Generate README partial snippets for Python library projects. |
 
 All components are built using [PieMaker](https://github.com/cliffano/piemaker).
 
@@ -27,6 +29,14 @@ Generate Python library project:
 
     make generate-python-lib
 
+Generate Python CLI partial snippets:
+
+    make generate-python-cli-partials
+
+Generate Python library partial snippets:
+
+    make generate-python-lib-partials
+
 Both components will prompt you the following inputs:
 
 | Prompt | Description |
@@ -37,6 +47,8 @@ Both components will prompt you the following inputs:
 | Author Name | The name of the project author. |
 | Author Email | The email of the project author. |
 | GitHub ID | The GitHub ID of the project repo. |
+| GitHub Repository | The GitHub repository URL for the project. |
+| GitHub Actions token prefix | Prefix for the GitHub token secret used in GitHub Actions workflows. |
 
 
 ## Colophon

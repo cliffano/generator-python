@@ -4,7 +4,7 @@
 ################################################################
 
 # PieMaker's version number
-PIEMAKER_VERSION = 2.5.0
+PIEMAKER_VERSION = 2.6.0
 
 ################################################################
 # User configuration variables
@@ -32,6 +32,12 @@ export PATH := ${VIRTUAL_ENV}/bin:${POETRY_HOME}/bin:$(PATH)
 
 define python_venv
 	. .venv/bin/activate && $(1)
+endef
+
+define run_hook
+	@if [ -f Makefile-extras ] && grep -q "^$(1):" Makefile-extras; then \
+		$(MAKE) -f Makefile-extras $(1); \
+	fi
 endef
 
 ################################################################
@@ -65,6 +71,7 @@ deps-extra-apt:
 	apt-get install -y python3-venv
 	apt-get install -y python3-sphinx # needed by sphinx-apidoc
 	apt-get install -y markdownlint
+	$(call run_hook,x-post-deps-extra-apt)
 
 rmdeps:
 	rm -f poetry.lock requirements.txt

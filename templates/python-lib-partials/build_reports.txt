@@ -6,3 +6,4 @@ Build reports:
 * [Test coverage report](https://{{github_id}}.github.io/{{github_repo}}/coverage/coverage/index.html)
 * [Integration tests report](https://{{github_id}}.github.io/{{github_repo}}/test-integration/pytest/index.html)
 * [API Documentation](https://{{github_id}}.github.io/{{github_repo}}/doc/sphinx/index.html)
+

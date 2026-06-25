@@ -23,19 +23,27 @@ All components are built using [PieMaker](https://github.com/cliffano/piemaker).
 
 Generate Python CLI project:
 
-    make generate-python-cli
+```shell
+make generate-python-cli
+```
 
 Generate Python library project:
 
-    make generate-python-lib
+```shell
+make generate-python-lib
+```
 
 Generate Python CLI partial snippets:
 
-    make generate-python-cli-partials
+```shell
+make generate-python-cli-partials
+```
 
 Generate Python library partial snippets:
 
-    make generate-python-lib-partials
+```shell
+make generate-python-lib-partials
+```
 
 Both components will prompt you the following inputs:
 

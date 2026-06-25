@@ -12,26 +12,36 @@ To be populated by generator-python python-cli-partials
 
 ## Installation
 
-    pip3 install {{project_id}}
+```shell
+pip3 install {{project_id}}
+```
 
 ## Usage
 
 Create a configuration file, e.g. `{{project_id}}.yaml`:
 
-    ---
-    text: Hello World
+```yaml
+---
+text: Hello World
+```
 
 Run {{project_id}} with specified config file:
 
-    {{project_id}} --conf-file {{project_id}}.yaml
+```shell
+{{project_id}} --conf-file {{project_id}}.yaml
+```
 
 Run {{project_id}} with specified config file and custom flags:
 
-    {{project_id}} --conf-file {{project_id}}.yaml --reverse --transformation upper
+```shell
+{{project_id}} --conf-file {{project_id}}.yaml --reverse --transformation upper
+```
 
 Show help guide:
 
-    {{project_id}} --help
+```shell
+{{project_id}} --help
+```
 
 ## Configuration
 

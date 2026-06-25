@@ -12,22 +12,28 @@ To be populated by generator-python python-lib-partials
 
 ## Installation
 
-    pip3 install {{project_id}}
+```shell
+pip3 install {{project_id}}
+```
 
 ## Usage
 
 Create a configuration file, e.g. `{{project_id}}.yaml`:
 
-    ---
-    text: Hello World
+```yaml
+---
+text: Hello World
+```
 
 Create {{project_id}} object and run it:
 
-    from {{project_id}} import Display
+```python
+from {{project_id}} import Display
 
-    display = Display(conf_files=['{{project_id}}.yaml'])
-    text = display.format(reverse=False, transformation='lower')
-    print(text)
+display = Display(conf_files=['{{project_id}}.yaml'])
+text = display.format(reverse=False, transformation='lower')
+print(text)
+```
 
 ## Configuration
 

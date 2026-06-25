@@ -1,9 +1,9 @@
 Build reports:
 
-* [Lint report](https://{{github_id}}.github.io/{{project_id}}/lint/pylint/index.html)
-* [Code complexity report](https://{{github_id}}.github.io/{{project_id}}/complexity/radon/cc.txt)
-* [Unit tests report](https://{{github_id}}.github.io/{{project_id}}/test/pytest/index.html)
-* [Test coverage report](https://{{github_id}}.github.io/{{project_id}}/coverage/coverage/index.html)
-* [Integration tests report](https://{{github_id}}.github.io/{{project_id}}/test-integration/pytest/index.html)
-* [API Documentation](https://{{github_id}}.github.io/{{project_id}}/doc/sphinx/index.html)
+* [Lint report](https://{{github_id}}.github.io/{{github_repo}}/lint/pylint/index.html)
+* [Code complexity report](https://{{github_id}}.github.io/{{github_repo}}/complexity/radon/cc.txt)
+* [Unit tests report](https://{{github_id}}.github.io/{{github_repo}}/test/pytest/index.html)
+* [Test coverage report](https://{{github_id}}.github.io/{{github_repo}}/coverage/coverage/index.html)
+* [Integration tests report](https://{{github_id}}.github.io/{{github_repo}}/test-integration/pytest/index.html)
+* [API Documentation](https://{{github_id}}.github.io/{{github_repo}}/doc/sphinx/index.html)
 

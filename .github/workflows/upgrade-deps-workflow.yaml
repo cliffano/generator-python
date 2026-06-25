@@ -13,7 +13,7 @@ jobs:
           node-version: '24'
       - run: git config --global user.email "blah+pakkun@cliffano.com"
       - run: git config --global user.name "pakkunbot"
-      - run: npm install -g bob@5.0.1
+      - run: npm install -g bob@5.2.1
       - run: bob updep
       - uses: cliffano/command-docker-action@v1.3.0
         with:

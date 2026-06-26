@@ -1,7 +1,7 @@
 Build reports:
 
 * [Lint report](https://{{github_id}}.github.io/{{github_repo}}/lint/pylint/index.html)
-* [Code complexity report](https://{{github_id}}.github.io/{{github_repo}}/complexity/radon/cc.txt)
+* [Code complexity report](https://{{github_id}}.github.io/{{github_repo}}/complexity/radon/index.html)
 * [Unit tests report](https://{{github_id}}.github.io/{{github_repo}}/test/pytest/index.html)
 * [Test coverage report](https://{{github_id}}.github.io/{{github_repo}}/coverage/coverage/index.html)
 * [Integration tests report](https://{{github_id}}.github.io/{{github_repo}}/test-integration/pytest/index.html)

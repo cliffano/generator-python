@@ -1,8 +1,12 @@
+<!-- BEGIN:AVATAR -->
 ![Avatar](avatar.jpg)
+<!-- END:AVATAR -->
 
+<!-- BEGIN:BADGES -->
 [![Build Status](https://github.com/cliffano/generator-python/workflows/CI/badge.svg)](https://github.com/cliffano/generator-python/actions?query=workflow%3ACI)
 [![Code Scanning Status](https://github.com/cliffano/generator-python/workflows/CodeQL/badge.svg)](https://github.com/cliffano/generator-python/actions?query=workflow%3ACodeQL)
 [![Security Status](https://snyk.io/test/github/cliffano/generator-python/badge.svg)](https://snyk.io/test/github/cliffano/generator-python)
+<!-- END:BADGES -->
 
 # Generator-Python
 
@@ -60,6 +64,15 @@ Both components will prompt you the following inputs:
 
 
 ## Colophon
+
+<!-- BEGIN:DEVELOPERS_GUIDE -->
+[Developer's Guide](https://cliffano.github.io/developers-guide-makefile.html)
+<!-- END:DEVELOPERS_GUIDE -->
+
+<!-- BEGIN:BUILD_REPORTS -->
+Build reports:
+
+<!-- END:BUILD_REPORTS -->
 
 Related Projects:
 

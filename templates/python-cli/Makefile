@@ -4,7 +4,7 @@
 ################################################################
 
 # PieMaker's version number
-PIEMAKER_VERSION = 2.7.0
+PIEMAKER_VERSION = 2.8.0
 
 ################################################################
 # User configuration variables
@@ -51,7 +51,11 @@ endef
 
 define deps_extra
 	@if command -v apt-get > /dev/null 2>&1; then \
-		$(MAKE) deps-extra-apt; \
+		if [ "$$(id -u)" = "0" ]; then \
+			$(MAKE) deps-extra-apt; \
+		else \
+			sudo $(MAKE) deps-extra-apt; \
+		fi; \
 	fi
 endef
 
@@ -59,8 +63,8 @@ endef
 # Base targets
 
 # CI target to be executed by CI/CD tool
-all:ci
-ci: clean deps style lint test coverage complexity doc package reinstall test-integration
+all: ci
+ci: clean style lint test coverage complexity doc package reinstall test-integration
 
 # Ensure stage directory exists
 stage:

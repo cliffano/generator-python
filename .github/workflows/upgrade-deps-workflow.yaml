@@ -15,11 +15,11 @@ jobs:
       - run: git config --global user.name "pakkunbot"
       - run: npm install -g bob@5.2.1
       - run: bob updep
-      - uses: cliffano/command-docker-action@v1.3.0
+      - uses: cliffano/command-docker-action@v1.4.0
         with:
           image: cliffano/studio:3.2.0
           command: 'make update-piemaker-to-latest'  
-      - uses: cliffano/command-docker-action@v1.3.0
+      - uses: cliffano/command-docker-action@v1.4.0
         with:
           image: cliffano/studio:3.2.0
           command: 'make ci'

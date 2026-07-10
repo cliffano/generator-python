@@ -9,5 +9,6 @@ generator:
     project_desc: {{project_desc}}
     author_name: {{author_name}}
     author_email: {{author_email}}
+    author_url: {{author_url}}
     github_id: {{github_id}}
     github_repo: {{github_repo}}

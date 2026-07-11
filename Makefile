@@ -29,7 +29,7 @@ test-python-cli:
 		--github_id "pakkunbot" \
 		--github_repo "python-cli" \
 		--github_token_prefix "STUDIO"
-	cd stage/python-cli/ && make deps-extra-apt ci && \
+	cd stage/python-cli/ && make deps ci && \
 	  cd examples/ && ./pythoncli-cli.sh
 
 ########################################
@@ -74,7 +74,7 @@ test-python-lib:
 		--github_id "pakkunbot" \
 		--github_repo "python-lib" \
 		--github_token_prefix "STUDIO"
-	cd stage/python-lib/ && make deps-extra-apt ci && \
+	cd stage/python-lib/ && make deps ci && \
 	  cd examples/
 
 ########################################

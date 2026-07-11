@@ -10,5 +10,5 @@ jobs:
           set-safe-directory: ${{ github.workspace }}
       - uses: cliffano/command-docker-action@v1.4.0
         with:
-          image: cliffano/studio:2.11.1
+          image: cliffano/studio:3.2.0
           command: 'make ci'

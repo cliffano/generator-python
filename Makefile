@@ -70,6 +70,7 @@ test-python-lib:
 		--project_desc "A sample Python library project" \
 		--author_name "Pakkun" \
 		--author_email "blah+pakkun@cliffano.com" \
+		--author_url "https://cliffano.com" \
 		--github_id "pakkunbot" \
 		--github_repo "python-lib" \
 		--github_token_prefix "STUDIO"
@@ -93,6 +94,7 @@ test-python-lib-partials:
 		--project_desc "A sample Python library project" \
 		--author_name "Pakkun" \
 		--author_email "blah+pakkun@cliffano.com" \
+		--author_url "https://cliffano.com" \
 		--github_id "pakkunbot" \
 		--github_repo "python-lib" \
 		--github_token_prefix "STUDIO"

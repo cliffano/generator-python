@@ -1,5 +1,5 @@
 ---
-description: "Python code conventions and standard practices for Python projects"
+description: "Code conventions and standard practices for Python projects"
 applyTo: "**/*.py"
 ---
 

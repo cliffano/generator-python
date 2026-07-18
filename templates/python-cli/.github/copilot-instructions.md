@@ -4,7 +4,9 @@ description: "Standard Python project conventions and tooling using PieMaker"
 
 # Python Project Standards
 
-This repository contains a Python project following a **unified standard** for tooling, build automation, and coding conventions. All projects share the same tooling stack and conventions to ensure consistency and maintainability. The key components of the standard include:
+This repository contains a Python project following a unified standard for tooling, build automation, and coding conventions. All projects share the same tooling stack and conventions to ensure consistency and maintainability.
+
+The key components of the standard include:
 
 - Build automation (PieMaker)
 - Project definition and dependency management (Poetry)
@@ -66,7 +68,7 @@ project/
 
 ## Build Automation (PieMaker)
 
-This Python project uses **PieMaker** as a standard build automation tool that unifies the build pipeline across all projects.
+This Python project uses **PieMaker** as a standard build automation tool that unifies the build pipeline across all Python projects.
 
 ### Common Commands
 

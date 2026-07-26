@@ -25,7 +25,7 @@ test-python-cli:
 		--project_name "PythonCLI" \
 		--project_desc "A sample Python CLI project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com" \
+		--author_email "pakkunbot@users.noreply.github.com" \
 		--github_id "pakkunbot" \
 		--github_repo "python-cli" \
 		--github_token_prefix "STUDIO"
@@ -48,7 +48,7 @@ test-python-cli-partials:
 		--project_name "PythonCLI" \
 		--project_desc "A sample Python CLI project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com" \
+		--author_email "pakkunbot@users.noreply.github.com" \
 		--github_id "pakkunbot" \
 		--github_repo "python-cli" \
 		--github_token_prefix "STUDIO"
@@ -69,7 +69,7 @@ test-python-lib:
 		--project_name "PythonLib" \
 		--project_desc "A sample Python library project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com" \
+		--author_email "pakkunbot@users.noreply.github.com" \
 		--author_url "https://cliffano.com" \
 		--github_id "pakkunbot" \
 		--github_repo "python-lib" \
@@ -93,7 +93,7 @@ test-python-lib-partials:
 		--project_name "PythonLib" \
 		--project_desc "A sample Python library project" \
 		--author_name "Pakkun" \
-		--author_email "blah+pakkun@cliffano.com" \
+		--author_email "pakkunbot@users.noreply.github.com" \
 		--author_url "https://cliffano.com" \
 		--github_id "pakkunbot" \
 		--github_repo "python-lib" \

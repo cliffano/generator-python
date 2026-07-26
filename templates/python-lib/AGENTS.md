@@ -415,8 +415,6 @@ Applies to: `tests/**/*.py`, `tests-integration/**/*.py`
 - Slower execution
 - Broader coverage (fewer, larger tests)
 
-### Naming Conventions
-
 #### Test Files
 
 ```text

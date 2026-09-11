@@ -62,6 +62,18 @@ Both components will prompt you the following inputs:
 | GitHub Repository | The GitHub repository URL for the project. |
 | GitHub Actions token prefix | Prefix for the GitHub token secret used in GitHub Actions workflows. |
 
+## Usage With Config File
+
+Each component also has a `-with-config` target that skips the interactive prompts by reading the inputs from a PieMaker YAML config file. See [examples/](examples/) for sample config files for each component.
+
+Pass the config file path via the `GENERATOR_CONFIG` variable, it defaults to `piemaker.yml`:
+
+```shell
+make generate-python-cli-with-config GENERATOR_CONFIG=path/to/piemaker.yml
+make generate-python-cli-partials-with-config GENERATOR_CONFIG=path/to/piemaker.yml
+make generate-python-lib-with-config GENERATOR_CONFIG=path/to/piemaker.yml
+make generate-python-lib-partials-with-config GENERATOR_CONFIG=path/to/piemaker.yml
+```
 
 ## Colophon
 

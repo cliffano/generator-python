@@ -15,7 +15,7 @@ jobs:
       - run: make clean deps deps-upgrade
       - run: sudo make deps-extra-apt
       - run: make ci
-      - uses: cliffano/save-changes-action@v1.0.0
+      - uses: cliffano/save-changes-action@v2.0.0
         with:
           message: 'Upgrade dependencies to latest versions'
           github_token: $\{{ secrets.{{github_token_prefix}}_GITHUB_TOKEN }}

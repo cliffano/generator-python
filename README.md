@@ -10,7 +10,7 @@
 
 # Generator-Python
 
-Generator-Python is a Python projects generator using [Plop](https://plopjs.com/).
+Generator-Python is a code generator for Python projects.
 
 It provides the following components:
 

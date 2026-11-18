@@ -9,6 +9,9 @@ stage:
 deps:
 	npm install .
 
+rmdeps:
+	rm -rf node_modules/
+
 ########################################
 # Utility targets
 ########################################
@@ -140,4 +143,4 @@ update-piemaker-to-latest:
 	cd templates/python-cli && make update-to-latest
 	cd templates/python-lib && make update-to-latest
 
-.PHONY: ci clean clean-python-cli clean-python-cli-partials clean-python-lib clean-python-lib-partials stage deps generate-python-cli generate-python-cli-with-config test-python-cli generate-python-cli-partials generate-python-cli-partials-with-config test-python-cli-partials generate-python-lib generate-python-lib-with-config test-python-lib generate-python-lib-partials generate-python-lib-partials-with-config test-python-lib-partials update-piemaker-to-latest
+.PHONY: ci clean clean-python-cli clean-python-cli-partials clean-python-lib clean-python-lib-partials stage deps rmdeps generate-python-cli generate-python-cli-with-config test-python-cli generate-python-cli-partials generate-python-cli-partials-with-config test-python-cli-partials generate-python-lib generate-python-lib-with-config test-python-lib generate-python-lib-partials generate-python-lib-partials-with-config test-python-lib-partials update-piemaker-to-latest

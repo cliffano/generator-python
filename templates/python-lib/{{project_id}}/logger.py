@@ -3,6 +3,8 @@ from conflog import Conflog
 
 def init():
     """Initialize logger.
+
+    :returns: Logger configured with the project log format.
     """
 
     cfl = Conflog(

@@ -5,6 +5,10 @@ from .logger import init
 
 def load(conf_file: str) -> dict:
     """Load configuration values from file.
+
+    :param conf_file: Path to the YAML configuration file.
+    :returns: Configuration values parsed from the file.
+    :raises FileNotFoundError: If the configuration file does not exist.
     """
 
     logger = init()

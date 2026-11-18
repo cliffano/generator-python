@@ -10,7 +10,16 @@ from .logger import init
 from .models.message import Message
 
 def display(conf_file: str, reverse: bool, transformation: str) -> None:
-    """Display text from configuration file."""
+    """Display text from configuration file.
+
+    This is the documented entry point behind the ``cli`` command; Sphinx
+    autodoc does not render Click commands.
+
+    :param conf_file: Path to the YAML configuration file.
+    :param reverse: When true, the text is reversed.
+    :param transformation: Text transformation type, ``lower`` or ``upper``;
+        any other value leaves the case unchanged.
+    """
 
     logger = init()
 
@@ -37,6 +46,5 @@ def display(conf_file: str, reverse: bool, transformation: str) -> None:
               help='Message text transformation type, can be lower or upper')
 @click.version_option(package_name="{{project_id}}", prog_name="{{project_id}}")
 def cli(conf_file: str, reverse: bool, transformation: str) -> None:
-    """{{project_desc}}
-    """
+    """{{project_desc}}"""
     display(conf_file, reverse, transformation)

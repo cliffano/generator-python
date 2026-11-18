@@ -2,29 +2,38 @@
 
 class Message():
     """This class represents a message.
-    It contains the message text.
+
+    It contains the message text and supports in-place transformations.
+
+    :param text: Initial message text.
     """
 
     def __init__(self, text: str) -> None:
-        """Initialize the Message object."""
+        #: Current message text.
         self.text = text
 
     def get_text(self) -> str:
-        """Return the message text."""
+        """Return the message text.
+
+        :returns: Current message text.
+        """
         return self.text
 
     def reverse(self) -> None:
-        """Return the message text in reverse order."""
+        """Reverse the message text in place."""
         self.text = self.text[::-1]
 
     def lower(self) -> None:
-        """Return the message text in lower case."""
+        """Convert the message text to lower case in place."""
         self.text = self.text.lower()
 
     def upper(self) -> None:
-        """Return the message text in upper case."""
+        """Convert the message text to upper case in place."""
         self.text = self.text.upper()
 
     def __str__(self) -> str:
-        """Return the string representation of the Message object."""
+        """Return the string representation of the Message object.
+
+        :returns: Current message text.
+        """
         return f'{self.text}'
